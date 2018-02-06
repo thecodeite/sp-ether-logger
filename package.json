@@ -1,0 +1,9 @@
+{
+  "name": "sp-ether-logger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^4.0.0"
+  }
+}
