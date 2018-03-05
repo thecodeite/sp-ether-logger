@@ -47,12 +47,12 @@ function listen () {
 
   ws.on('error', (error) => {
     console.log('error:: error:', error)
-    listen()
+    setTimeout(() => listen(), 5000)
   })
 
   ws.on('close', (code, reason) => {
     console.log('close:: code, reason:', code, reason)
-    listen()
+    setTimeout(() => listen(), 5000)
   })
 
 }
